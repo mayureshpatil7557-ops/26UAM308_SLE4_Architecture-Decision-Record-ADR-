@@ -1,0 +1,40 @@
+# AI Contribution Log: SLE-4
+
+
+
+## 1. AI tools used
+
+| Tool | Used for |
+| --- | --- |
+| Claude (Anthropic) | Drafting the ADR, README and this log for SLE-4 |
+| ChatGPT | Support in SLE-1, SLE-2 and SLE-3 (as already recorded in those reports) |
+
+## 2. Activity-wise contribution
+
+| Activity | AI contribution | My contribution |
+| --- | --- | --- |
+| Understanding the task | Read the SLE-4 guideline and explained what an ADR is and what the submission must contain | Read the guideline and gave the AI my SLE-2 and SLE-3 documents as input |
+| Choosing the decision | Analysed my SLE-2 and SLE-3 reports and suggested the decision: BFS as default, A* kept as an alternative | Reviewed the suggestion against my own results and accepted it as the decision to defend |
+| Writing the ADR | Drafted Context, Decision, Alternatives, Rationale and Consequences in the required format | Checked every number and statement against my SLE-2 table and SLE-3 design |
+| Evidence and numbers | Arranged my SLE-2 results (path length, nodes expanded, average time) into a table and calculated the comparisons (about 17% slower in the average case, about 1.9 times slower in the worst case, 40% fewer nodes in the average case) | Ran the original experiments in SLE-2 and recorded the actual measurements; verified the comparisons |
+| Journey summary and viva notes | Drafted the SLE-1 to SLE-4 summary and five viva preparation points | Reviewed them and will practise explaining them in my own words |
+| Formatting and GitHub files | Created the Word document, README and this log | Will upload the files to GitHub and Moodle |
+| Viva | No AI use during the viva | I will explain and defend the decision, the numbers and the C4 diagrams myself |
+
+## 3. What the AI did not do
+
+- The AI did not run any code or experiments. All timing and node-count results come from my own SLE-2 work.
+- The AI did not create new data. Every number in the ADR is taken from my SLE-2 report.
+- The AI did not draw my C4 diagrams. They are from my SLE-3 work.
+
+## 4. Review and verification
+
+- I compared the numbers in the ADR with my SLE-2 report.
+- I checked that the design points match my SLE-3 container and component diagrams.
+- I understand the decision and can explain the alternatives, the profiling results and the trade-offs.
+
+## 5. Declaration
+
+I used AI tools as described above. I am responsible for the content submitted and can explain it in the viva.
+
+**Signature / Name:** Mayuresh Patil  **Date:** 10-10-2026
