@@ -4,37 +4,36 @@
 
 ## 1. AI tools used
 
-| Tool | Used for |
-| --- | --- |
-| Claude (Anthropic) | Drafting the ADR, README and this log for SLE-4 |
-| ChatGPT | Support in SLE-1, SLE-2 and SLE-3 (as already recorded in those reports) |
+I used Claude (Anthropic) to help draft the ADR, the README and this log for SLE-4. In SLE-1, SLE-2 and SLE-3 I used ChatGPT for support, as already recorded in those reports.
 
-## 2. Activity-wise contribution
+## 2. How AI helped
 
-| Activity | AI contribution | My contribution |
-| --- | --- | --- |
-| Understanding the task | Read the SLE-4 guideline and explained what an ADR is and what the submission must contain | Read the guideline and gave the AI my SLE-2 and SLE-3 documents as input |
-| Choosing the decision | Analysed my SLE-2 and SLE-3 reports and suggested the decision: BFS as default, A* kept as an alternative | Reviewed the suggestion against my own results and accepted it as the decision to defend |
-| Writing the ADR | Drafted Context, Decision, Alternatives, Rationale and Consequences in the required format | Checked every number and statement against my SLE-2 table and SLE-3 design |
-| Evidence and numbers | Arranged my SLE-2 results (path length, nodes expanded, average time) into a table and calculated the comparisons (about 17% slower in the average case, about 1.9 times slower in the worst case, 40% fewer nodes in the average case) | Ran the original experiments in SLE-2 and recorded the actual measurements; verified the comparisons |
-| Journey summary and viva notes | Drafted the SLE-1 to SLE-4 summary and five viva preparation points | Reviewed them and will practise explaining them in my own words |
-| Formatting and GitHub files | Created the Word document, README and this log | Will upload the files to GitHub and Moodle |
-| Viva | No AI use during the viva | I will explain and defend the decision, the numbers and the C4 diagrams myself |
+**Understanding the task.** Claude read the SLE-4 guideline and explained what an ADR is and what the final submission must contain. I gave it my SLE-2 and SLE-3 documents as input.
 
-## 3. What the AI did not do
+**Choosing the decision.** Claude analysed my SLE-2 profiling report and my SLE-3 C4 design and suggested the decision to record: BFS as the default search strategy, with A* and the Manhattan heuristic kept as an alternative inside the Search Engine.
 
-- The AI did not run any code or experiments. All timing and node-count results come from my own SLE-2 work.
-- The AI did not create new data. Every number in the ADR is taken from my SLE-2 report.
-- The AI did not draw my C4 diagrams. They are from my SLE-3 work.
+**Writing the ADR.** Claude drafted the Context, Decision, Alternatives Considered, Rationale and Consequences sections in the format required by the guideline. It also drafted the short summary of my SLE-1 to SLE-4 journey and the five viva preparation points.
 
-## 4. Review and verification
+**Presenting the evidence.** Claude arranged my SLE-2 results into a comparison and worked out the percentages used in the rationale: A* was about 17% slower in the average case, about 1.9 times slower in the worst case, and expanded about 40% fewer nodes in the average case.
 
-- I compared the numbers in the ADR with my SLE-2 report.
-- I checked that the design points match my SLE-3 container and component diagrams.
-- I understand the decision and can explain the alternatives, the profiling results and the trade-offs.
+**Files and formatting.** Claude created the Word document, the README and this log.
+
+## 3. What I did myself
+
+**Earlier SLE work.** I did the work behind the evidence. I implemented BFS and A*, ran the SLE-2 experiments with timeit, node counting and py-spy, recorded the actual measurements, and designed and drew the C4 model in SLE-3.
+
+**Reviewing the decision.** I reviewed the suggested decision against my own results and accepted it as the decision I will defend.
+
+**Verifying the content.** I checked the numbers in the ADR against my SLE-2 report and checked the design points against my SLE-3 container and component diagrams.
+
+**Submission and viva.** I will upload the files to GitHub and Moodle. I will explain and defend the decision, the profiling results and the C4 diagrams in the viva myself, without AI help.
+
+## 4. What the AI did not do
+
+Claude did not run any code or experiments, so all timing and node-count results come from my own SLE-2 work. It did not create any new data, and every number in the ADR is taken from my SLE-2 report. It did not draw my C4 diagrams, which are from my SLE-3 work.
 
 ## 5. Declaration
 
-I used AI tools as described above. I am responsible for the content submitted and can explain it in the viva.
+I used AI tools as described above. I understand the decision and can explain the alternatives, the profiling results and the trade-offs. I am responsible for the content I submit and can explain it in the viva.
 
-**Signature / Name:** Mayuresh Patil  **Date:** 10-10-2026
+**Name:** Mayuresh Patil  **Date:** 10-10-2026
